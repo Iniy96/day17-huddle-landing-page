@@ -1,0 +1,131 @@
+@media (max-width: 900px) {
+  .page1 {
+    background: url(./images/bg-hero-mobile.svg);
+    background-color: var(--Very-Pale-Cyan);
+  }
+  .header {
+    padding: 2em 0 1em 0;
+  }
+  .header img {
+    height: 1.5em;
+  }
+  .header a {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0.5em 2em;
+  }
+  /* *********************** */
+  .page1Container {
+    flex-wrap: wrap;
+  }
+
+  .content {
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 4em;
+  }
+  .content h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+  }
+  .content p {
+    font-weight: 500;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    padding: 1em 0 2em;
+    line-height: 1.5;
+  }
+  .desktoplaptopimg {
+    text-align: center;
+    
+  }
+  .desktoplaptopimg img {
+    width: 350px;
+    
+  }
+  /* ***************************************** */
+  .page2 {
+    padding-top: 0;
+  }
+  .page2box {
+    align-items: center;
+    box-shadow: 0 0 10px hsla(209, 11%, 55%, 0.3);
+    border-radius: 1em;
+    padding: 2em 2em 2em 2em;
+    justify-content: space-between;
+  }
+  .page2box img {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+  .contentPage2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+  }
+  .contentPage2 h2 {
+    font-size: 24px;
+  }
+  .contentPage2 p {
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--Grayish-Blue);
+  }
+  .Conversations {
+    flex-wrap: wrap;
+  }
+  .enquiryBox {
+    top: 8%;
+    width: 90%;
+    padding: 2em 0 3em;
+  }
+  .enquiryBox h2 {
+    font-size: 18px;
+  }
+  .enquiryBox a {
+    font-weight: 500;
+    padding: 0.75em 3em;
+    border-radius: 8em;
+    box-shadow: 0 0 15px hsla(209, 11%, 55%, 0.5);
+  }
+  /* *********************************************** */
+  .footer {
+    height: auto;
+    padding-top: 100px;
+  }
+  .footercontainer {
+    grid-template-columns: 1fr;
+  }
+  .details svg {
+    margin-bottom: 1em;
+  }
+  .address p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+  .details {
+    padding-bottom: 2em;
+  }
+  .nav {
+    padding-left: 0;
+  }
+  .socialicons {
+    padding: 2em 0;
+    align-items: center;
+  }
+  .socialicons p {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+/* ***************************************************** */
